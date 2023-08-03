@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ body {
+    background-color: black;
+    color: #f1faee;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bolder;
+}
+h1 {
+    margin: 0;
+    padding: 8px;
+    font-size: 48px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+}
+
+#buttons button {
+    padding: 12px 20px;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+span {
+    color: #e2eeff;
+    font-size: 18px;
+    font-weight: lighter;
+}
